@@ -1,2 +1,0 @@
-[console_scripts]
-opensesame = opensesame.main_click.main

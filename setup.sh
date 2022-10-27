@@ -12,5 +12,5 @@ sudo python3 setup.py install 2>>/dev/null
 if [ "$?" == "1" ]
 then
 echo "No root! Installing locally."
-python3 setup.py install --prefix="~/.local/"
+python3 setup.py install --prefix="~/.local"
 fi

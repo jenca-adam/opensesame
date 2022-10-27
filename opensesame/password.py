@@ -35,7 +35,7 @@ class Password:
             self.password=randpass(**kwargs).password
         try:
             self.bytes_password=force_bytes(self.password)
-        except:
+        except TypeError:
             raise TypeError("passwords can only be initialized from bytes or str")
     def hash(self,hashing_method=None):
         if hashing_method is None:

@@ -220,11 +220,11 @@ It's a string wrapped in hashing.
 Hashing is done with  `Password.hash(algorithm)`.
 `Password.hash` returns `Hash` object with attributes `hexdigest`(hexadecimal representation of the digest) and `bytesdigest`(actual digest)
 """,
-    long_description_context_type='text/markdown',
+    long_description_content_type='text/markdown',
     packages=['opensesame'],
     package_data={"opensesame":["list.txt"]},
     include_package_data=True,
-    entry_points={"console_scripts":["opensesame = opensesame.main_click.main"]},
+    entry_points={"console_scripts":["opensesame = opensesame.main_click:main"]},
     author="Adam Jenca",
     classifiers=[ "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
