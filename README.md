@@ -3,7 +3,7 @@ Advanced password generator and hasher made in Python.
 # Installation
 ## From PyPI(any OS)
 ```bash
-python3 -m pip install opensesame
+python3 -m pip install pyopensesame
 ```
 ## Directly from GitHub(Linux only)
 ```bash
